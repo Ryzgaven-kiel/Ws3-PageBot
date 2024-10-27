@@ -1,4 +1,4 @@
-const token = "EAANaBm6MZCTYBOyxlPVzZAGy34NzSQvQZAbL31bOz0EMm8G1CYA0EZCGyFbLbV32n0W4SId7HhkP2k1CMHUbyq5jrPoZCqeVSpOEUYjGnIMK3ZAMXdSAZAZAW142LZB7P3Js6XCUMeYR3Chqm3e1bl2vthMchGqziZAppAAXyAG4Fe07KrGnGjfqCqP4rf3jVOI0KDbgZDZD";
+const token = "EAANaBm6MZCTYBOx9dHgx7uPRfvhj8cTmd7LsbYWjonRlvTZAi8MkV8cNZCZChYdgtJsVaN74hWOv86LSg2zD2Xh2xJiquVmVyMeW9f9llDNcorMEU9k1NZAL682OXWwZBa2DiAdNNgc6EJrjFmpji5VcSZC3B6nPyyGK8ThqxljzaOg5E4m2WEXCuDRmJXD2VuyGwZDZD";
 const PAGE_ACCESS_TOKEN = process.env.token || token;
 const request = require('request');
 const axios = require("axios");
