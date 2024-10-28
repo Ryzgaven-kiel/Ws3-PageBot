@@ -1,5 +1,5 @@
 module.exports = {
-  description: "What is WieAI?",
+  description: "What is Act AI Chatbot?",
   async run({ api, send, admin }){
     await send({
       attachment: {
@@ -15,26 +15,26 @@ module.exports = {
         type: "template",
         payload: {
           template_type: "button",
-          text: `🤖 About WieAI:
-WieAI is your friendly, helpful personal assistant.
+          text: `🤖 About Act Ai Chatbot:
+Act Ai Chatbot is your friendly, helpful personal assistant.
 
-💭 Why I named WieAI as a name of the page bot because this is dedicated to my girlfriend itself 👸
+💭 Why I named Act AI Chatbot as a name of the page bot because this is the course of my Creator
 
 ❓ Contact us admins if you experienced/encountered any issue regarding to the bot and I will try to fix it. Thankyou for using me as a personal assistant!`,
           buttons: [
             {
               type: "web_url",
-              url: "https://www.facebook.com/profile.php?id=61566907376981",
-              title: "Like/Follow our Page"
+              url: "https://www.facebook.com/profile.php?id=61567908865958",
+              title: "Like/Follow our other Page Bot"
                 },
             {
               type: "web_url",
-              url: "https://www.facebook.com/kennethfranciscoaceberos",
+              url: "https://www.facebook.com/cristianmoridas.serrano",
               title: "Contact Admin 1"
                 },
             {
               type: "web_url",
-              url: "https://www.facebook.com/wieginesalpocialechavez",
+              url: "https://www.facebook.com/Kiel.as.usual.11",
               title: "Contact Admin 2"
                 }
              ]
