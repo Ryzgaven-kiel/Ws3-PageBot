@@ -1,5 +1,5 @@
 const axios = require("axios");
-const name = "wiegine";
+const name = "actai";
 module.exports = {
   name,
   description: "Interact with me!",
@@ -8,7 +8,7 @@ module.exports = {
     const user = args.join(" ");
     if (!user) throw new Error(`Usage: ${api.prefix + name} [your question]`);
     send("I will respond to your question right now sweetie 👩‍❤️‍💋‍👩👸");
-    const aIpi = await axios.get(api.echavie + "/wiegine", {
+    const aIpi = await axios.get(api.echavie + "/Act Chatbot", {
       params: {
         q: user
       }
