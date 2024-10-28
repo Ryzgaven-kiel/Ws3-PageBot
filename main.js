@@ -8,7 +8,7 @@ const SCRIPT_PATH = __dirname + "/" + SCRIPT_FILE;
 const GIT = process.env.repo || "https://github.com/neth7/Ws3-PageBot.git";
 
 async function Load() {
-  console.log(`Ws3 PageBot | Created by Kenneth Aceberos`);
+  console.log(`Ws3 PageBot | Created by Cristian M. Serrano`);
   const execute = async (cmd) => {
     await new Promise(async (resolve, reject) => {
       const buang = await exec(cmd, {
