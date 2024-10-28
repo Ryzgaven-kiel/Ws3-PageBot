@@ -1,9 +1,9 @@
 const axios = require("axios");
-const name = "ai" ;
+const name = "act" ;
 
 module.exports = {
   name,
-  description: "Interact with ChatGPT-4o",
+  description: "Interact with ACT CHATBOT",
   async run ({ api, event, send, args }){
     const prompt = args.join(" ");
     if (!prompt) return send(`Please enter your question! 
@@ -21,7 +21,7 @@ Example: ${api.prefix + name} what is love?`);
     throw new Error();
     send(`${gpt.data.result}
 
-🤖 WieAI by Neth Aceberos`);
+🤖 Act AI Chatbot by Cristian M. Serrano`);
     } catch(err){
       send(err.message || err);
       return;
