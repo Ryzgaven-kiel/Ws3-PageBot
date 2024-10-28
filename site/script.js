@@ -170,11 +170,10 @@ addEventListener("DOMContentLoaded", async (event) => {
   */
   
   // add developer info here
-  await add(devInfo, "Name", "Kenneth Aceberos");
-  await add(devInfo, "Age", "17 y/o");
-  await add(devInfo, "Address", "Duero, Bohol");
+  await add(devInfo, "Name", "Cristian M. Serrano");
+  await add(devInfo, "Age", "21 y/o");
+  await add(devInfo, "Address", "Poblacion Imelda Zamboanga Sibugay");
   // add your page admins here
-  await addImg(graph("100015801404865"), "Neth Aceberos");
-  await addImg(graph("100029350902119"), "Wiegine S. Echavez");
+  await addImg(graph("100051157809614"), "Cristian M. Serrano");
   setTimeout(() => window.scrollTo({top: 0, behavior: "smooth"}), 500);
 });
