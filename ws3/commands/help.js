@@ -16,17 +16,17 @@ module.exports = {
         type: "template",
         payload: {
           template_type: "button",
-          text: `🤖 | These are the commands on Wie AI below.
+          text: `🤖 | These are the commands on Act AI Chatbot below.
 🔎 | Click every command to see the usage.`,
           buttons: [
             {
               type: "web_url",
-              url: "https://www.facebook.com/kennethfranciscoaceberos",
+              url: "https://www.facebook.com/cristianmoridas.serrano",
               title: "Contact Admin 1"
             },
             {
               type: "web_url",
-              url: "https://www.facebook.com/wieginesalpocialechavez",
+              url: "https://www.facebook.com/Kiel.as.usual.11",
               title: "Contact Admin 2"
             }
          ]
