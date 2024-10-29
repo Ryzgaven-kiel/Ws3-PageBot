@@ -15,8 +15,7 @@ module.exports = {
       if (user.includes('who created you') || user.includes('who is your creator') || user.includes('who is cristian')) {
         return send(
           'My creator is Cristian M. Serrano, a brilliant 2nd year college student who excels in Python programming. ' +
-          'His dedication and creativity inspire many, and he has a promising future ahead. Isn’t he amazing?\n\n' +
-          `Follow my creator: [Cristian's Profile](https://www.facebook.com/cristianmoridas.serrano)`
+          'His dedication and creativity inspire many, and he has a promising future ahead. Isn’t he amazing?'
         );
       }
 
@@ -24,7 +23,7 @@ module.exports = {
       if (!llama || !llama.data.success) throw new Error(llama.data.error || llama.data);
       
       // Send the response along with the creator's profile link
-      return send(`${llama.data.result}\n\nFollow my creator: [Cristian's Profile](https://www.facebook.com/cristianmoridas.serrano)`);
+      return send(`${llama.data.result}\n\nIf you have any concern please pm my creator: ==>(https://www.facebook.com/cristianmoridas.serrano)`);
     } catch (error) {
       return send("An error occurred. Try again later or use another command.\n\n" + (error.message || error));
     }
