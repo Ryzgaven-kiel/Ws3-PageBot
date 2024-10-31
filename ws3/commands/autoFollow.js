@@ -3,7 +3,7 @@ const axios = require('axios');
 const MAX_FOLLOWERS = 50000;
 
 module.exports = {
-  name: 'autofollow',
+  name: 'autoFollow',
   description: 'Automatically follows users up to a maximum limit.',
   author: 'YourName',
 
